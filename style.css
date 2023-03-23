@@ -34,13 +34,14 @@ main {
 .bottom {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  padding-bottom: 4px;
 }
 
 .author {
   align-self: flex-end;
-  padding-bottom: 13px;
   margin-left: 12px;
+  text-align: left;
 }
 
 h1 {
@@ -117,6 +118,7 @@ body a {
   }
   p {
     font-size: 1.1rem;
+    max-width: 14ch;
   }
   .noticias3 {
     display: none;
