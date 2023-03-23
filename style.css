@@ -98,6 +98,10 @@ body a {
   margin-right: 12px;
 }
 
+.currency img {
+  width: 32px;
+}
+
 @media (min-width: 1250px) {
   h1 {
     font-size: 3.3rem;
